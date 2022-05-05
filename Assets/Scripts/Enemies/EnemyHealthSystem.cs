@@ -9,7 +9,10 @@ public class EnemyHealthSystem : MonoBehaviour
     Animator animator;
     public float getHitAnimationTime;
     private float getHitAnimationTimeCounter;
-    bool getHit;
+    internal bool getHit;
+
+    internal bool dead;
+    bool playedDeathAnimation;
 
     void Start()
     {
@@ -18,7 +21,12 @@ public class EnemyHealthSystem : MonoBehaviour
 
     void Update()
     {
-        Animate();
+        if (!dead)
+        {
+            Animate();
+        }
+
+        Death();
     }
 
     void init()
@@ -33,6 +41,10 @@ public class EnemyHealthSystem : MonoBehaviour
             health -= 10;
             getHit = true;
             animator.SetBool("getHit", getHit);
+            if (health > 0)
+            {
+                animator.SetTrigger("getHitTrigger");
+            }
             getHitAnimationTimeCounter = getHitAnimationTime;
         }
     }
@@ -48,5 +60,23 @@ public class EnemyHealthSystem : MonoBehaviour
             getHit = false;
             animator.SetBool("getHit", getHit);
         }
+    }
+
+    void Death()
+    {
+        if (health <= 0)
+        {
+            dead = true;
+            if (!playedDeathAnimation)
+            {
+                playedDeathAnimation = true;
+                animator.SetTrigger("death");
+            }
+        }
+    }
+
+    public void DestroyObject()
+    {
+        Destroy(gameObject);
     }
 }

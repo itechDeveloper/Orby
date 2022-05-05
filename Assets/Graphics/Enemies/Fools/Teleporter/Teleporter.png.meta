@@ -104,820 +104,820 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Guardian Sprite-Sheet_0
+      name: Teleporter_0
       rect:
         serializedVersion: 2
         x: 0
         y: 1824
         width: 128
         height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.175, y: 0.7}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5ac895f1a68f7384dac6184190253dc4
-      internalID: -1845859149
+      spriteID: b8a373e61a71cdd4ba60ea28623a2724
+      internalID: 1273148543
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Guardian Sprite-Sheet_1
+      name: Teleporter_1
       rect:
         serializedVersion: 2
         x: 0
         y: 1776
         width: 128
         height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.175, y: 0.7}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 673c1a82233022341afd42a13c43cfde
-      internalID: 1490531738
+      spriteID: c9de87d28d1781940aa778397c1847c6
+      internalID: -275519757
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Guardian Sprite-Sheet_2
+      name: Teleporter_2
       rect:
         serializedVersion: 2
         x: 0
         y: 1728
         width: 128
         height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.175, y: 0.7}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 66aa0d470af8393428be63e902e61c1e
-      internalID: 398382340
+      spriteID: 762765e4f5ab74d4c904478df1d11af3
+      internalID: 1084365175
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Guardian Sprite-Sheet_3
+      name: Teleporter_3
       rect:
         serializedVersion: 2
         x: 0
         y: 1680
         width: 128
         height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.175, y: 0.7}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8e5c8c39f6b114441beab2250ecb9392
-      internalID: -1355398878
+      spriteID: 16d4ab2a799e6cc47ac9886f2eba8321
+      internalID: -1414786445
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Guardian Sprite-Sheet_4
+      name: Teleporter_4
       rect:
         serializedVersion: 2
         x: 0
         y: 1632
         width: 128
         height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.175, y: 0.7}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6f956ccc67ef17f4dbeefb480978d7dd
-      internalID: -820310079
+      spriteID: e2c871e140c073d4fbfed1f853be5149
+      internalID: 1277934372
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Guardian Sprite-Sheet_5
+      name: Teleporter_5
       rect:
         serializedVersion: 2
         x: 0
         y: 1584
         width: 128
         height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.175, y: 0.7}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c393f5ba68d5cf046ab2124e5f20f59b
-      internalID: 378624673
+      spriteID: 645fc6b364558e548b2e9c4935f9b313
+      internalID: -587287549
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Guardian Sprite-Sheet_6
+      name: Teleporter_6
       rect:
         serializedVersion: 2
         x: 0
         y: 1536
         width: 128
         height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.175, y: 0.7}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 02e6e447c62aebb4ebe4287de136ca47
-      internalID: -1203882396
+      spriteID: b26327f09a732b3418a46734d464011a
+      internalID: 301629774
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Guardian Sprite-Sheet_7
+      name: Teleporter_7
       rect:
         serializedVersion: 2
         x: 0
         y: 1488
         width: 128
         height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.175, y: 0.7}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 95bbbc0eda2a47441ad2d75244ed0cfe
-      internalID: -656761903
+      spriteID: 9dfb26997f956f343a2afd8cfb308f32
+      internalID: 2132377962
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Guardian Sprite-Sheet_8
+      name: Teleporter_8
       rect:
         serializedVersion: 2
         x: 0
         y: 1440
         width: 128
         height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.175, y: 0.7}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 46f35d332b9c68c4e99ea841de861c04
-      internalID: 2102283741
+      spriteID: 88f27f0cdbfe26c48b58271afa142ab1
+      internalID: -1038765190
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Guardian Sprite-Sheet_9
+      name: Teleporter_9
       rect:
         serializedVersion: 2
         x: 0
         y: 1392
         width: 128
         height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.175, y: 0.7}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2d4a85f6d796ddd4296764440cbe614a
-      internalID: 599358181
+      spriteID: c3af109710d10934a88d2edb016f4729
+      internalID: -1459020585
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Guardian Sprite-Sheet_10
+      name: Teleporter_10
       rect:
         serializedVersion: 2
         x: 0
         y: 1344
         width: 128
         height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.175, y: 0.7}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9a9c367dd4f2cf846844ac569f7e1d60
-      internalID: 698209823
+      spriteID: c3bba45b7616def4d93b48a495a3c423
+      internalID: 1009214355
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Guardian Sprite-Sheet_11
+      name: Teleporter_11
       rect:
         serializedVersion: 2
         x: 0
         y: 1296
         width: 128
         height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.175, y: 0.7}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dd9cc8dfab226f64a85452af029d98f6
-      internalID: -736778007
+      spriteID: 02c4b9419bda4df429aef84dbdc92aae
+      internalID: -1959797200
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Guardian Sprite-Sheet_12
+      name: Teleporter_12
       rect:
         serializedVersion: 2
         x: 0
         y: 1248
         width: 128
         height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.175, y: 0.7}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 013dfb1e1cefee74ea573617a7bc569e
-      internalID: 775240109
+      spriteID: caf16d58e00e6b645ad75971e6134cc5
+      internalID: 1100803597
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Guardian Sprite-Sheet_13
+      name: Teleporter_13
       rect:
         serializedVersion: 2
         x: 0
         y: 1200
         width: 128
         height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.175, y: 0.7}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 60e766a9f78046c469a936029b6c6726
-      internalID: 535451478
+      spriteID: 16d4c524e9b9ba94fbf88eb314c94e17
+      internalID: -1100622839
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Guardian Sprite-Sheet_14
+      name: Teleporter_14
       rect:
         serializedVersion: 2
         x: 0
         y: 1152
         width: 128
         height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.175, y: 0.7}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8df1687d2990c2c488a69283843bff1f
-      internalID: -1099854934
+      spriteID: fe6a17ea7a7d3164c811a25b05fa156e
+      internalID: 2033381896
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Guardian Sprite-Sheet_15
+      name: Teleporter_15
       rect:
         serializedVersion: 2
         x: 0
         y: 1104
         width: 128
         height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.175, y: 0.7}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4446bfbdf1c811a498c4a519fc01a156
-      internalID: 1916855521
+      spriteID: 3c57dfa038978b440b6432db2256ce3f
+      internalID: -424211978
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Guardian Sprite-Sheet_16
+      name: Teleporter_16
       rect:
         serializedVersion: 2
         x: 0
         y: 1056
         width: 128
         height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.175, y: 0.7}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2bd6e04f306d0bb469edccaed047fc63
-      internalID: -1650538614
+      spriteID: 7d1c37ffa21054246a72b2d664345378
+      internalID: -360285527
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Guardian Sprite-Sheet_17
+      name: Teleporter_17
       rect:
         serializedVersion: 2
         x: 0
         y: 1008
         width: 128
         height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.175, y: 0.7}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f6ed96039be5b25439bd6c00b6b88130
-      internalID: -245749082
+      spriteID: 704da4ad23a34a34c832f7d29c87d9f0
+      internalID: 1851072076
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Guardian Sprite-Sheet_18
+      name: Teleporter_18
       rect:
         serializedVersion: 2
         x: 0
         y: 960
         width: 128
         height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.175, y: 0.7}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 58f2945460a4b83469eb3575fd264cd3
-      internalID: 1069233014
+      spriteID: 2a3b9d304f984c84d9cf6a9c911a8531
+      internalID: 17778550
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Guardian Sprite-Sheet_19
+      name: Teleporter_19
       rect:
         serializedVersion: 2
         x: 0
         y: 912
         width: 128
         height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.175, y: 0.7}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bd35320d6a5f12f4fbdfd1cd864e9f3b
-      internalID: 548598906
+      spriteID: 410f6c077ad98bb479b45f05e2363fb1
+      internalID: 1319790142
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Guardian Sprite-Sheet_20
+      name: Teleporter_20
       rect:
         serializedVersion: 2
         x: 0
         y: 864
         width: 128
         height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.175, y: 0.7}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5adf7002db05534449870b5d85ca39cf
-      internalID: -1959649152
+      spriteID: 71a045ea397771940bc7dec75f8eda1c
+      internalID: 1191577021
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Guardian Sprite-Sheet_21
+      name: Teleporter_21
       rect:
         serializedVersion: 2
         x: 0
         y: 816
         width: 128
         height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.175, y: 0.7}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 023e59e69bddfb440802809c70e4b2eb
-      internalID: 1033267206
+      spriteID: 774ae0a53d4d2f74abc24b6f58450635
+      internalID: -1104036769
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Guardian Sprite-Sheet_22
+      name: Teleporter_22
       rect:
         serializedVersion: 2
         x: 0
         y: 768
         width: 128
         height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.175, y: 0.7}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 54d58017408cfb24ebf67bbf17d4584f
-      internalID: 1884982658
+      spriteID: 8adb274b3302e394fa338d300eb3aecc
+      internalID: -803747088
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Guardian Sprite-Sheet_23
+      name: Teleporter_23
       rect:
         serializedVersion: 2
         x: 0
         y: 720
         width: 128
         height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.175, y: 0.7}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 623d110042bfbd64f8b2d3577874ce01
-      internalID: 516508270
+      spriteID: ed41b8f8c13ca5842ab7d14a202d6a16
+      internalID: 1999321458
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Guardian Sprite-Sheet_24
+      name: Teleporter_24
       rect:
         serializedVersion: 2
         x: 0
         y: 672
         width: 128
         height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.175, y: 0.7}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9e2e621e070a0c640aac45a4f920c6cc
-      internalID: 1543573458
+      spriteID: 1056654847812f647af67b6e6cfaa4a2
+      internalID: 626886492
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Guardian Sprite-Sheet_25
+      name: Teleporter_25
       rect:
         serializedVersion: 2
         x: 0
         y: 624
         width: 128
         height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.175, y: 0.7}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 180728fd36262494d9d08d85ec74b8aa
-      internalID: -340489791
+      spriteID: 76d863efdf0a25c48abcb1b9158e6e33
+      internalID: -1054784065
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Guardian Sprite-Sheet_26
+      name: Teleporter_26
       rect:
         serializedVersion: 2
         x: 0
         y: 576
         width: 128
         height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.175, y: 0.7}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5027bf3d00f81e14e81d735175ed320c
-      internalID: 923144240
+      spriteID: af745c99f0f486446aa062993b54ae69
+      internalID: 1642435968
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Guardian Sprite-Sheet_27
+      name: Teleporter_27
       rect:
         serializedVersion: 2
         x: 0
         y: 528
         width: 128
         height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.175, y: 0.7}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a1dec022a658c6c488ee85fa68dae45b
-      internalID: 613952918
+      spriteID: 0979a512e135dbe488f567b376268991
+      internalID: 182001409
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Guardian Sprite-Sheet_28
+      name: Teleporter_28
       rect:
         serializedVersion: 2
         x: 0
         y: 480
         width: 128
         height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.175, y: 0.7}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 28e34b541b6d4854fbd3b5093ea381bf
-      internalID: -510799821
+      spriteID: 241caa38c16a54f4cac957ac8d3d4264
+      internalID: 558592610
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Guardian Sprite-Sheet_29
+      name: Teleporter_29
       rect:
         serializedVersion: 2
         x: 0
         y: 432
         width: 128
         height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.175, y: 0.7}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8f07458d98050044b87c1e907a583bf5
-      internalID: 735207801
+      spriteID: 2c1878f96d90af6438b0c8f63de745b6
+      internalID: 924113856
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Guardian Sprite-Sheet_30
+      name: Teleporter_30
       rect:
         serializedVersion: 2
         x: 0
         y: 384
         width: 128
         height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.175, y: 0.7}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1cc7f5d7109e3ad48bd615233fccfc8b
-      internalID: -1372555801
+      spriteID: c26757cbfaa1d0341aad087a049af813
+      internalID: 598031134
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Guardian Sprite-Sheet_31
+      name: Teleporter_31
       rect:
         serializedVersion: 2
         x: 0
         y: 336
         width: 128
         height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.175, y: 0.7}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0e958c87eb2b37b45b42cd1fc03ade7b
-      internalID: -80296485
+      spriteID: c9141d09b58597e47acbb51dbc021fe4
+      internalID: -1881655113
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Guardian Sprite-Sheet_32
+      name: Teleporter_32
       rect:
         serializedVersion: 2
         x: 0
         y: 288
         width: 128
         height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.175, y: 0.7}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 493b3407b8815fe49b2003afb735e349
-      internalID: -1201255479
+      spriteID: b8d60b05a89354c4490889500cb77ddc
+      internalID: 1047553041
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Guardian Sprite-Sheet_33
+      name: Teleporter_33
       rect:
         serializedVersion: 2
         x: 0
         y: 240
         width: 128
         height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.175, y: 0.7}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9926852e94011cf40b5653447528c259
-      internalID: 853794411
+      spriteID: 1bb347e84b7545b42ac929fea2366528
+      internalID: 1084541825
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Guardian Sprite-Sheet_34
+      name: Teleporter_34
       rect:
         serializedVersion: 2
         x: 0
         y: 192
         width: 128
         height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.175, y: 0.7}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1af426b3c8588d3478c0bacb79fa5d4e
-      internalID: -88677323
+      spriteID: 0c3bd66615a9aec4b999e6b56cd2d28d
+      internalID: -439421368
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Guardian Sprite-Sheet_35
+      name: Teleporter_35
       rect:
         serializedVersion: 2
         x: 0
         y: 144
         width: 128
         height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.175, y: 0.7}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2660490d6b5ffc7479c06223abd11bc7
-      internalID: 586396917
+      spriteID: 69daeb2a6567de54c89878a9f03ec8b4
+      internalID: -1428875941
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Guardian Sprite-Sheet_36
+      name: Teleporter_36
       rect:
         serializedVersion: 2
         x: 0
         y: 96
         width: 128
         height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.175, y: 0.7}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a0187354541b26f4a97afa0f1b561df3
-      internalID: -1549633988
+      spriteID: 7d6cfb025e2679b4a803487c3f85b620
+      internalID: -877512577
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Guardian Sprite-Sheet_37
+      name: Teleporter_37
       rect:
         serializedVersion: 2
         x: 0
         y: 48
         width: 128
         height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.175, y: 0.7}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c1e10593b40dcca4894ccb42b59830bc
-      internalID: -497688484
+      spriteID: 5622ea0dbf36bba4196006fe34b445aa
+      internalID: -1920057884
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Guardian Sprite-Sheet_38
+      name: Teleporter_38
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 128
         height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.175, y: 0.7}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eb8ed2bc1113de64492542b1d3bdaf4b
-      internalID: 1638188142
+      spriteID: d69c8b3262cc856469d08ea9a1760096
+      internalID: -1700622485
       vertices: []
       indices: 
       edges: []
@@ -933,45 +933,45 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Guardian Sprite-Sheet_24: 1543573458
-      Guardian Sprite-Sheet_22: 1884982658
-      Guardian Sprite-Sheet_29: 735207801
-      Guardian Sprite-Sheet_5: 378624673
-      Guardian Sprite-Sheet_26: 923144240
-      Guardian Sprite-Sheet_23: 516508270
-      Guardian Sprite-Sheet_18: 1069233014
-      Guardian Sprite-Sheet_30: -1372555801
-      Guardian Sprite-Sheet_31: -80296485
-      Guardian Sprite-Sheet_25: -340489791
-      Guardian Sprite-Sheet_13: 535451478
-      Guardian Sprite-Sheet_1: 1490531738
-      Guardian Sprite-Sheet_12: 775240109
-      Guardian Sprite-Sheet_35: 586396917
-      Guardian Sprite-Sheet_34: -88677323
-      Guardian Sprite-Sheet_36: -1549633988
-      Guardian Sprite-Sheet_10: 698209823
-      Guardian Sprite-Sheet_37: -497688484
-      Guardian Sprite-Sheet_9: 599358181
-      Guardian Sprite-Sheet_2: 398382340
-      Guardian Sprite-Sheet_8: 2102283741
-      Guardian Sprite-Sheet_38: 1638188142
-      Guardian Sprite-Sheet_0: -1845859149
-      Guardian Sprite-Sheet_17: -245749082
-      Guardian Sprite-Sheet_20: -1959649152
-      Guardian Sprite-Sheet_27: 613952918
-      Guardian Sprite-Sheet_7: -656761903
-      Guardian Sprite-Sheet_11: -736778007
-      Guardian Sprite-Sheet_3: -1355398878
-      Guardian Sprite-Sheet_6: -1203882396
-      Guardian Sprite-Sheet_14: -1099854934
-      Guardian Sprite-Sheet_33: 853794411
-      Guardian Sprite-Sheet_19: 548598906
-      Guardian Sprite-Sheet_15: 1916855521
-      Guardian Sprite-Sheet_16: -1650538614
-      Guardian Sprite-Sheet_21: 1033267206
-      Guardian Sprite-Sheet_32: -1201255479
-      Guardian Sprite-Sheet_28: -510799821
-      Guardian Sprite-Sheet_4: -820310079
+      Teleporter_37: -1920057884
+      Teleporter_19: 1319790142
+      Teleporter_27: 182001409
+      Teleporter_38: -1700622485
+      Teleporter_31: -1881655113
+      Teleporter_24: 626886492
+      Teleporter_4: 1277934372
+      Teleporter_20: 1191577021
+      Teleporter_29: 924113856
+      Teleporter_21: -1104036769
+      Teleporter_6: 301629774
+      Teleporter_7: 2132377962
+      Teleporter_0: 1273148543
+      Teleporter_23: 1999321458
+      Teleporter_13: -1100622839
+      Teleporter_26: 1642435968
+      Teleporter_22: -803747088
+      Teleporter_36: -877512577
+      Teleporter_15: -424211978
+      Teleporter_11: -1959797200
+      Teleporter_10: 1009214355
+      Teleporter_18: 17778550
+      Teleporter_25: -1054784065
+      Teleporter_30: 598031134
+      Teleporter_28: 558592610
+      Teleporter_35: -1428875941
+      Teleporter_9: -1459020585
+      Teleporter_32: 1047553041
+      Teleporter_8: -1038765190
+      Teleporter_1: -275519757
+      Teleporter_5: -587287549
+      Teleporter_34: -439421368
+      Teleporter_2: 1084365175
+      Teleporter_3: -1414786445
+      Teleporter_12: 1100803597
+      Teleporter_16: -360285527
+      Teleporter_33: 1084541825
+      Teleporter_14: 2033381896
+      Teleporter_17: 1851072076
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

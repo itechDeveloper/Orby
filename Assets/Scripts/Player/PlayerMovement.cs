@@ -26,7 +26,7 @@ public class PlayerMovement : MonoBehaviour
     public float jumpForce;
 
     public Transform groundCheck;
-    private bool isGrounded;
+    internal bool isGrounded;
     public float checkRadius;
     public LayerMask whatIsGround;
 
@@ -57,15 +57,32 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
-        if (!dashing)
+        isGrounded = Physics2D.OverlapCircle(groundCheck.position, checkRadius, whatIsGround);
+
+        if (!PlayerHealthSystem.dead)
         {
-            Move();
-            SetAnimationsParams();
-            Flip();
+            if (!PlayerHealthSystem.hit)
+            {
+                if (!dashing)
+                {
+                    Move();
+                    SetAnimationsParams();
+                    Flip();
+                }
+                Jump();
+                Dash();
+            }
+
+            StaminaRegen();
         }
-        Jump();
-        Dash();
-        StaminaRegen();
+        else
+        {
+            if (!isGrounded)
+            {
+                verticalMove = rigidbody.velocity.y;
+                animator.SetFloat("verticalSpeed", verticalMove);
+            }
+        }
     }
 
     void Move()
@@ -129,8 +146,6 @@ public class PlayerMovement : MonoBehaviour
 
     void Jump()
     {
-        isGrounded = Physics2D.OverlapCircle(groundCheck.position, checkRadius, whatIsGround);
-
         if (isGrounded)
         {
             animator.SetBool("jumping", false);

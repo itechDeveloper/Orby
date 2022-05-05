@@ -39,14 +39,17 @@ public class MoveToCurser : MonoBehaviour
 
     void Update()
     {
-        FollowPlayer();
-        Retrieve();
-        Attack();
-        if (!reachedTarget)
+        if (!PlayerHealthSystem.dead)
         {
-            CheckDistance();
-            AddAccelaration();
-            transform.position = Vector3.MoveTowards(transform.position, target, -speed * Time.deltaTime);
+            FollowPlayer();
+            Retrieve();
+            Attack();
+            if (!reachedTarget)
+            {
+                CheckDistance();
+                AddAccelaration();
+                transform.position = Vector3.MoveTowards(transform.position, target, -speed * Time.deltaTime);
+            }
         }
     }
 
