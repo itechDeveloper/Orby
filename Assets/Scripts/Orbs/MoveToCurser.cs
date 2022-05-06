@@ -35,6 +35,7 @@ public class MoveToCurser : MonoBehaviour
     void Start()
     {
         followPlayer = true;
+        transform.position = player.transform.position;
     }
 
     void Update()

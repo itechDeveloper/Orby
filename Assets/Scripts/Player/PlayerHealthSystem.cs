@@ -8,7 +8,7 @@ public class PlayerHealthSystem : MonoBehaviour
     Animator animator;
 
     public float maxHealth;
-    internal float health;
+    float health;
 
     public static bool dead;
     bool playedDeathAnimation;
@@ -38,6 +38,8 @@ public class PlayerHealthSystem : MonoBehaviour
             {
                 hit = false;
                 animator.SetBool("hit", hit);
+                PlayerSkillSystem.usingSkill = false;
+                animator.SetBool("usingSkill", false);
             }
             else
             {
@@ -70,6 +72,8 @@ public class PlayerHealthSystem : MonoBehaviour
         {
             health = maxHealth;
         }
+
+        SetHealthBar();
     }
 
     public void SetHealthBar()

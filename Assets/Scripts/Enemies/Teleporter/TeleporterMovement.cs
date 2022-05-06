@@ -174,7 +174,8 @@ public class TeleporterMovement : MonoBehaviour
 
     void Action()
     {
-        if (Vector2.Distance(transform.position, player.transform.position) > teleportDistance || Vector2.Distance(transform.position, player.transform.position) < 1.5f)
+        if (Vector2.Distance(transform.position, player.transform.position) > teleportDistance || (Mathf.Abs(transform.position.y - player.transform.position.y) > 1f) 
+            || Vector2.Distance(transform.position, player.transform.position) < 1.5f)
         {
             TeleportToPlayer();
         }

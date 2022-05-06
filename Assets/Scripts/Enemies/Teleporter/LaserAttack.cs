@@ -57,6 +57,12 @@ public class LaserAttack : MonoBehaviour
 
     public void Attack()
     {
+        if (transform.parent.GetComponent<EnemyHealthSystem>().getHit)
+        {
+            laserTimer = 0f;
+            playedAnim = false;
+        }
+
         if (laserTimer > 0)
         {
             laserTimer -= Time.deltaTime;

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 1c52224e315f12641abf6bf1d53849db
+guid: 3410a79478065c648b7df285892035aa
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -104,106 +104,127 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Dash_0
+      name: quick attack_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 128
-        width: 72
-        height: 32
+        y: 210
+        width: 104
+        height: 42
       alignment: 9
-      pivot: {x: 0.53, y: 0.5}
+      pivot: {x: 0.22, y: 0.475}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b17104c3e7b74ac4291338c99d0f68b6
-      internalID: -180905366
+      spriteID: 4babd502569a43541a3d867b2d968c9c
+      internalID: -1750697042
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dash_1
+      name: quick attack_1
       rect:
         serializedVersion: 2
         x: 0
-        y: 96
-        width: 72
-        height: 32
+        y: 168
+        width: 104
+        height: 42
       alignment: 9
-      pivot: {x: 0.81, y: 0.5}
+      pivot: {x: 0.22, y: 0.475}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3f1a6b4cc3407d943897a157ce2a1133
-      internalID: 1283288848
+      spriteID: 446d900e2d6a37c4599c9c29382ba9c3
+      internalID: 504279740
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dash_2
+      name: quick attack_2
       rect:
         serializedVersion: 2
         x: 0
-        y: 64
-        width: 72
-        height: 32
+        y: 126
+        width: 104
+        height: 42
       alignment: 9
-      pivot: {x: 0.83, y: 0.5}
+      pivot: {x: 0.22, y: 0.475}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b9946c2e1654849458067b188874cf4a
-      internalID: -95888561
+      spriteID: b7bd53e714516b84a9424c799dcedbd7
+      internalID: -1455374955
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dash_3
+      name: quick attack_3
       rect:
         serializedVersion: 2
         x: 0
-        y: 32
-        width: 72
-        height: 32
+        y: 84
+        width: 104
+        height: 42
       alignment: 9
-      pivot: {x: 0.83, y: 0.5}
+      pivot: {x: 0.22, y: 0.475}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9a0d5cf97738d094b872b1c7ec50cbf2
-      internalID: 247265267
+      spriteID: 47ef3be06879b9a4dafc28953764d29a
+      internalID: 1667327640
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dash_4
+      name: quick attack_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 42
+        width: 104
+        height: 42
+      alignment: 9
+      pivot: {x: 0.22, y: 0.475}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1978153871a6e243bca7bac77859073
+      internalID: 1077457617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quick attack_5
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 72
-        height: 32
+        width: 104
+        height: 42
       alignment: 9
-      pivot: {x: 0.84, y: 0.5}
+      pivot: {x: 0.22, y: 0.475}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f911ccf840e716f47b3d488409682817
-      internalID: -1669900420
+      spriteID: 44830a1037f3fc94db5dc373a996a926
+      internalID: -991881548
       vertices: []
       indices: 
       edges: []
@@ -219,11 +240,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Dash_3: 247265267
-      Dash_0: -180905366
-      Dash_4: -1669900420
-      Dash_1: 1283288848
-      Dash_2: -95888561
+      quick attack_0: -1750697042
+      quick attack_5: -991881548
+      quick attack_3: 1667327640
+      quick attack_4: 1077457617
+      quick attack_2: -1455374955
+      quick attack_1: 504279740
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

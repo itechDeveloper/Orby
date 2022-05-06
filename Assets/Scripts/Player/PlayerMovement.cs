@@ -61,7 +61,7 @@ public class PlayerMovement : MonoBehaviour
 
         if (!PlayerHealthSystem.dead)
         {
-            if (!PlayerHealthSystem.hit)
+            if (!PlayerHealthSystem.hit && !PlayerSkillSystem.usingSkill)
             {
                 if (!dashing)
                 {
@@ -177,8 +177,9 @@ public class PlayerMovement : MonoBehaviour
             {
                 dashing = true;
                 dashCoolDownTimer = dashCoolDown;
-                
+                dashTimeCounter = dashTime;
                 stamina -= staminaRequirement;
+                animator.SetBool("dashing", dashing);
             }
         }
         else
@@ -188,8 +189,6 @@ public class PlayerMovement : MonoBehaviour
 
         if (dashing)
         {
-            animator.SetBool("dashing", dashing);
-
             if (dashTimeCounter > 0)
             {
                 dashTimeCounter -= Time.deltaTime;
@@ -205,12 +204,8 @@ public class PlayerMovement : MonoBehaviour
             else
             {
                 dashing = false;
+                animator.SetBool("dashing", dashing);
             }
-        }
-        else
-        {
-            animator.SetBool("dashing", dashing);
-            dashTimeCounter = dashTime;
         }
     }
 

@@ -1,0 +1,584 @@
+fileFormatVersion: 2
+guid: 2906fc548c80cfd42a15fca216717853
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 28
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 100
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: wave slam_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 840
+        width: 104
+        height: 42
+      alignment: 9
+      pivot: {x: 0.22, y: 0.475}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 680c842b90e9de44b9d928eec5e04f01
+      internalID: 1511690844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wave slam_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 798
+        width: 104
+        height: 42
+      alignment: 9
+      pivot: {x: 0.22, y: 0.475}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbc66945a3f1fff47bc4d52b655827f3
+      internalID: 827081062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wave slam_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 756
+        width: 104
+        height: 42
+      alignment: 9
+      pivot: {x: 0.22, y: 0.475}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 271f5e9e9f250504780c3796eaa00bf2
+      internalID: 1658041342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wave slam_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 714
+        width: 104
+        height: 42
+      alignment: 9
+      pivot: {x: 0.22, y: 0.475}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94761cf26c7227147a5644b1744af830
+      internalID: 1539539959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wave slam_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 672
+        width: 104
+        height: 42
+      alignment: 9
+      pivot: {x: 0.22, y: 0.475}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df5af4da4fad8ac4d823f3e3bea05c19
+      internalID: -1322383841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wave slam_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 630
+        width: 104
+        height: 42
+      alignment: 9
+      pivot: {x: 0.22, y: 0.475}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3768da33bc11c9843a16a25593ac6bc2
+      internalID: -1077864518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wave slam_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 588
+        width: 104
+        height: 42
+      alignment: 9
+      pivot: {x: 0.22, y: 0.475}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01a3c6deb0937a8429ed3522aa3f65bc
+      internalID: -1324627069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wave slam_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 546
+        width: 104
+        height: 42
+      alignment: 9
+      pivot: {x: 0.22, y: 0.475}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7ab5d9fe590e964fac495ef40de5082
+      internalID: 2111971635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wave slam_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 504
+        width: 104
+        height: 42
+      alignment: 9
+      pivot: {x: 0.22, y: 0.475}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccf7ddf947182df49a697485d199f1ed
+      internalID: -1987769680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wave slam_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 462
+        width: 104
+        height: 42
+      alignment: 9
+      pivot: {x: 0.22, y: 0.475}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc77223cd1fdf19429f917f077f71454
+      internalID: 148129060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wave slam_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 420
+        width: 104
+        height: 42
+      alignment: 9
+      pivot: {x: 0.22, y: 0.475}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5242b9bb130a6164c84ac108f8d3cc2b
+      internalID: 2090099555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wave slam_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 378
+        width: 104
+        height: 42
+      alignment: 9
+      pivot: {x: 0.22, y: 0.475}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc85e751c485d3c4ba45fd7761f34216
+      internalID: -1008680694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wave slam_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 336
+        width: 104
+        height: 42
+      alignment: 9
+      pivot: {x: 0.22, y: 0.475}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ce992799f5767c47969d3fe8ebafb83
+      internalID: 1417179396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wave slam_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 294
+        width: 104
+        height: 42
+      alignment: 9
+      pivot: {x: 0.22, y: 0.475}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1576282315f44224aaa544d83b8c7b52
+      internalID: 1510227661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wave slam_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 252
+        width: 104
+        height: 42
+      alignment: 9
+      pivot: {x: 0.22, y: 0.475}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a914f599e0d5aa149b6d5eff74d5e5c4
+      internalID: -559782570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wave slam_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 210
+        width: 104
+        height: 42
+      alignment: 9
+      pivot: {x: 0.22, y: 0.475}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 587161b160fb7314b9a4d65cf56c166a
+      internalID: -379043105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wave slam_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 168
+        width: 104
+        height: 42
+      alignment: 9
+      pivot: {x: 0.22, y: 0.475}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67f001ce8995b804ab8799a4714399d1
+      internalID: -1020934253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wave slam_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 126
+        width: 104
+        height: 42
+      alignment: 9
+      pivot: {x: 0.22, y: 0.475}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21eef1d3ef60e0c40821a68426c1b734
+      internalID: 405338326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wave slam_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 84
+        width: 104
+        height: 42
+      alignment: 9
+      pivot: {x: 0.22, y: 0.475}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2afbff0d0ccb93f48944d4e4b394587e
+      internalID: 503193369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wave slam_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 42
+        width: 104
+        height: 42
+      alignment: 9
+      pivot: {x: 0.22, y: 0.475}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96c0187763c2fa149a20c3c608a64b88
+      internalID: 204005206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wave slam_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 104
+        height: 42
+      alignment: 9
+      pivot: {x: 0.22, y: 0.475}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb5055f4ce79b2842b54a90db2e8bbe9
+      internalID: 646437633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      wave slam_1: 827081062
+      wave slam_11: -1008680694
+      wave slam_12: 1417179396
+      wave slam_18: 503193369
+      wave slam_0: 1511690844
+      wave slam_16: -1020934253
+      wave slam_7: 2111971635
+      wave slam_2: 1658041342
+      wave slam_15: -379043105
+      wave slam_17: 405338326
+      wave slam_5: -1077864518
+      wave slam_3: 1539539959
+      wave slam_19: 204005206
+      wave slam_8: -1987769680
+      wave slam_13: 1510227661
+      wave slam_10: 2090099555
+      wave slam_14: -559782570
+      wave slam_6: -1324627069
+      wave slam_4: -1322383841
+      wave slam_20: 646437633
+      wave slam_9: 148129060
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

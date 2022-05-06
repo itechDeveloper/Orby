@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 1c52224e315f12641abf6bf1d53849db
+guid: ab53d8af7c81ace4bb05c2d08bb7be4f
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -104,106 +104,169 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Dash_0
+      name: MagmaShot_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 128
-        width: 72
-        height: 32
+        y: 231
+        width: 92
+        height: 33
       alignment: 9
-      pivot: {x: 0.53, y: 0.5}
+      pivot: {x: 0.22, y: 0.475}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b17104c3e7b74ac4291338c99d0f68b6
-      internalID: -180905366
+      spriteID: 3ba29ed19dff5544680e581bb3ecb76f
+      internalID: -972086389
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dash_1
+      name: MagmaShot_1
       rect:
         serializedVersion: 2
         x: 0
-        y: 96
-        width: 72
-        height: 32
+        y: 198
+        width: 92
+        height: 33
       alignment: 9
-      pivot: {x: 0.81, y: 0.5}
+      pivot: {x: 0.22, y: 0.475}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3f1a6b4cc3407d943897a157ce2a1133
-      internalID: 1283288848
+      spriteID: cda89d8a3311a354ba817a72428c9cd2
+      internalID: -2058206340
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dash_2
+      name: MagmaShot_2
       rect:
         serializedVersion: 2
         x: 0
-        y: 64
-        width: 72
-        height: 32
+        y: 165
+        width: 92
+        height: 33
       alignment: 9
-      pivot: {x: 0.83, y: 0.5}
+      pivot: {x: 0.22, y: 0.475}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b9946c2e1654849458067b188874cf4a
-      internalID: -95888561
+      spriteID: 9a08969cd8fb0524d93763f0f261d73c
+      internalID: 455120462
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dash_3
+      name: MagmaShot_3
       rect:
         serializedVersion: 2
         x: 0
-        y: 32
-        width: 72
-        height: 32
+        y: 132
+        width: 92
+        height: 33
       alignment: 9
-      pivot: {x: 0.83, y: 0.5}
+      pivot: {x: 0.22, y: 0.475}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9a0d5cf97738d094b872b1c7ec50cbf2
-      internalID: 247265267
+      spriteID: 233d59c6a6b3bf348a55340430542ad7
+      internalID: -1823895509
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dash_4
+      name: MagmaShot_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 99
+        width: 92
+        height: 33
+      alignment: 9
+      pivot: {x: 0.22, y: 0.475}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63be47ff0d650094ba59672677444ded
+      internalID: -2005526034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagmaShot_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 66
+        width: 92
+        height: 33
+      alignment: 9
+      pivot: {x: 0.22, y: 0.475}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da6e87e14e55016449a3fadff84f70b7
+      internalID: 454595382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagmaShot_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 33
+        width: 92
+        height: 33
+      alignment: 9
+      pivot: {x: 0.22, y: 0.475}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0255ab832b73c394e92edf95abf55957
+      internalID: 863426142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagmaShot_7
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 72
-        height: 32
+        width: 92
+        height: 33
       alignment: 9
-      pivot: {x: 0.84, y: 0.5}
+      pivot: {x: 0.22, y: 0.475}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f911ccf840e716f47b3d488409682817
-      internalID: -1669900420
+      spriteID: 0c84e6d0c02a9534480e34bf225aea5b
+      internalID: 1780089050
       vertices: []
       indices: 
       edges: []
@@ -219,11 +282,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Dash_3: 247265267
-      Dash_0: -180905366
-      Dash_4: -1669900420
-      Dash_1: 1283288848
-      Dash_2: -95888561
+      MagmaShot_5: 454595382
+      MagmaShot_3: -1823895509
+      MagmaShot_0: -972086389
+      MagmaShot_4: -2005526034
+      MagmaShot_6: 863426142
+      MagmaShot_2: 455120462
+      MagmaShot_7: 1780089050
+      MagmaShot_1: -2058206340
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

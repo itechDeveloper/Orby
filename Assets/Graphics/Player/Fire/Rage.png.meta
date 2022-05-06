@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 1c52224e315f12641abf6bf1d53849db
+guid: 655c7bc34636daa42b34f855712e37b8
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -104,106 +104,127 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Dash_0
+      name: Rage_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 128
-        width: 72
-        height: 32
+        y: 165
+        width: 92
+        height: 31
       alignment: 9
-      pivot: {x: 0.53, y: 0.5}
+      pivot: {x: 0.23, y: 0.55}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b17104c3e7b74ac4291338c99d0f68b6
-      internalID: -180905366
+      spriteID: 1f4922a8329f6db4083aca0d18df2728
+      internalID: -1413296049
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dash_1
+      name: Rage_1
       rect:
         serializedVersion: 2
         x: 0
-        y: 96
-        width: 72
-        height: 32
+        y: 132
+        width: 92
+        height: 31
       alignment: 9
-      pivot: {x: 0.81, y: 0.5}
+      pivot: {x: 0.23, y: 0.55}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3f1a6b4cc3407d943897a157ce2a1133
-      internalID: 1283288848
+      spriteID: 271f7187c853ba846aaa11555697ccee
+      internalID: 873745773
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dash_2
+      name: Rage_2
       rect:
         serializedVersion: 2
         x: 0
-        y: 64
-        width: 72
-        height: 32
+        y: 99
+        width: 92
+        height: 31
       alignment: 9
-      pivot: {x: 0.83, y: 0.5}
+      pivot: {x: 0.23, y: 0.55}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b9946c2e1654849458067b188874cf4a
-      internalID: -95888561
+      spriteID: fb83cf2e5dd3f7248a7a7378f0b3570b
+      internalID: -122314687
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dash_3
+      name: Rage_3
       rect:
         serializedVersion: 2
         x: 0
-        y: 32
-        width: 72
-        height: 32
+        y: 66
+        width: 92
+        height: 31
       alignment: 9
-      pivot: {x: 0.83, y: 0.5}
+      pivot: {x: 0.23, y: 0.55}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9a0d5cf97738d094b872b1c7ec50cbf2
-      internalID: 247265267
+      spriteID: b93eb13c23415464f90c6655f612a72f
+      internalID: 342407665
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dash_4
+      name: Rage_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 33
+        width: 92
+        height: 31
+      alignment: 9
+      pivot: {x: 0.23, y: 0.55}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 348570a2caf2c2148a8c77cf95c73454
+      internalID: -1821663646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rage_5
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 72
-        height: 32
+        width: 92
+        height: 31
       alignment: 9
-      pivot: {x: 0.84, y: 0.5}
+      pivot: {x: 0.23, y: 0.55}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f911ccf840e716f47b3d488409682817
-      internalID: -1669900420
+      spriteID: 2adc383b3772016459955fa2dd34b158
+      internalID: -1154464003
       vertices: []
       indices: 
       edges: []
@@ -219,11 +240,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Dash_3: 247265267
-      Dash_0: -180905366
-      Dash_4: -1669900420
-      Dash_1: 1283288848
-      Dash_2: -95888561
+      Rage_5: -1154464003
+      Rage_0: -1413296049
+      Rage_2: -122314687
+      Rage_1: 873745773
+      Rage_3: 342407665
+      Rage_4: -1821663646
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

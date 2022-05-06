@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 1c52224e315f12641abf6bf1d53849db
+guid: 4921a36bd42f5e042820ca3c6fd54775
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -104,106 +104,211 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Dash_0
+      name: wave spear attack_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 128
-        width: 72
-        height: 32
+        y: 378
+        width: 104
+        height: 42
       alignment: 9
-      pivot: {x: 0.53, y: 0.5}
+      pivot: {x: 0.22, y: 0.475}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b17104c3e7b74ac4291338c99d0f68b6
-      internalID: -180905366
+      spriteID: 4f0498b65782c9a498410c3f4718ac78
+      internalID: 703404464
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dash_1
+      name: wave spear attack_1
       rect:
         serializedVersion: 2
         x: 0
-        y: 96
-        width: 72
-        height: 32
+        y: 336
+        width: 104
+        height: 42
       alignment: 9
-      pivot: {x: 0.81, y: 0.5}
+      pivot: {x: 0.22, y: 0.475}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3f1a6b4cc3407d943897a157ce2a1133
-      internalID: 1283288848
+      spriteID: edb16d60f2c47fb458c48a8f4ed09a1d
+      internalID: -1228519180
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dash_2
+      name: wave spear attack_2
       rect:
         serializedVersion: 2
         x: 0
-        y: 64
-        width: 72
-        height: 32
+        y: 294
+        width: 104
+        height: 42
       alignment: 9
-      pivot: {x: 0.83, y: 0.5}
+      pivot: {x: 0.22, y: 0.475}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b9946c2e1654849458067b188874cf4a
-      internalID: -95888561
+      spriteID: 38e1607825ddbb34e886794580abed7c
+      internalID: -1492202885
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dash_3
+      name: wave spear attack_3
       rect:
         serializedVersion: 2
         x: 0
-        y: 32
-        width: 72
-        height: 32
+        y: 252
+        width: 104
+        height: 42
       alignment: 9
-      pivot: {x: 0.83, y: 0.5}
+      pivot: {x: 0.22, y: 0.475}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9a0d5cf97738d094b872b1c7ec50cbf2
-      internalID: 247265267
+      spriteID: ffdbdc9acff4d9a4d9b907a6f5ea461e
+      internalID: 1244418713
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dash_4
+      name: wave spear attack_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 210
+        width: 104
+        height: 42
+      alignment: 9
+      pivot: {x: 0.22, y: 0.475}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b238f08b6bfe6f74bb959f8d32e719d4
+      internalID: -1216187835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wave spear attack_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 168
+        width: 104
+        height: 42
+      alignment: 9
+      pivot: {x: 0.22, y: 0.475}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e5013d4f60c5ca4b8b0e512d5ec7bbb
+      internalID: -1391025862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wave spear attack_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 126
+        width: 104
+        height: 42
+      alignment: 9
+      pivot: {x: 0.22, y: 0.475}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6b18b6e4e2dd0c4ebf017eaf29461e4
+      internalID: 289487563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wave spear attack_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 84
+        width: 104
+        height: 42
+      alignment: 9
+      pivot: {x: 0.22, y: 0.475}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51511f54f2e78254284b46733b5f1530
+      internalID: 1301235047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wave spear attack_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 42
+        width: 104
+        height: 42
+      alignment: 9
+      pivot: {x: 0.22, y: 0.475}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcbd91bba97fbdc4386d1232ffe93579
+      internalID: -2038788805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wave spear attack_9
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 72
-        height: 32
+        width: 104
+        height: 42
       alignment: 9
-      pivot: {x: 0.84, y: 0.5}
+      pivot: {x: 0.22, y: 0.475}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f911ccf840e716f47b3d488409682817
-      internalID: -1669900420
+      spriteID: e2aec8de07255904ba01fe14e2a02da6
+      internalID: 1129761327
       vertices: []
       indices: 
       edges: []
@@ -219,11 +324,16 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Dash_3: 247265267
-      Dash_0: -180905366
-      Dash_4: -1669900420
-      Dash_1: 1283288848
-      Dash_2: -95888561
+      wave spear attack_2: -1492202885
+      wave spear attack_0: 703404464
+      wave spear attack_6: 289487563
+      wave spear attack_8: -2038788805
+      wave spear attack_7: 1301235047
+      wave spear attack_9: 1129761327
+      wave spear attack_4: -1216187835
+      wave spear attack_5: -1391025862
+      wave spear attack_1: -1228519180
+      wave spear attack_3: 1244418713
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 1c52224e315f12641abf6bf1d53849db
+guid: 4cce5a85165aecc4ca21557d7975f1cb
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -104,106 +104,169 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Dash_0
+      name: FireDash_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 128
-        width: 72
-        height: 32
+        y: 231
+        width: 92
+        height: 33
       alignment: 9
-      pivot: {x: 0.53, y: 0.5}
+      pivot: {x: 0.63, y: 0.475}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b17104c3e7b74ac4291338c99d0f68b6
-      internalID: -180905366
+      spriteID: 2cfab4efca5303a4d844f2b894a710b7
+      internalID: -929672162
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dash_1
+      name: FireDash_1
       rect:
         serializedVersion: 2
         x: 0
-        y: 96
-        width: 72
-        height: 32
+        y: 198
+        width: 92
+        height: 33
       alignment: 9
-      pivot: {x: 0.81, y: 0.5}
+      pivot: {x: 0.85, y: 0.475}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3f1a6b4cc3407d943897a157ce2a1133
-      internalID: 1283288848
+      spriteID: 4aa282855b6bcbb4082f07f831002e9b
+      internalID: 576327962
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dash_2
+      name: FireDash_2
       rect:
         serializedVersion: 2
         x: 0
-        y: 64
-        width: 72
-        height: 32
+        y: 165
+        width: 92
+        height: 33
       alignment: 9
-      pivot: {x: 0.83, y: 0.5}
+      pivot: {x: 0.86, y: 0.475}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b9946c2e1654849458067b188874cf4a
-      internalID: -95888561
+      spriteID: b56a2ae4e14bb0449898391f893bf0cc
+      internalID: -1397318484
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dash_3
+      name: FireDash_3
       rect:
         serializedVersion: 2
         x: 0
-        y: 32
-        width: 72
-        height: 32
+        y: 132
+        width: 92
+        height: 33
       alignment: 9
-      pivot: {x: 0.83, y: 0.5}
+      pivot: {x: 0.86, y: 0.475}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9a0d5cf97738d094b872b1c7ec50cbf2
-      internalID: 247265267
+      spriteID: 1d0f40da9e0b53546966f85997c167e1
+      internalID: 553763635
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dash_4
+      name: FireDash_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 99
+        width: 92
+        height: 33
+      alignment: 9
+      pivot: {x: 0.87, y: 0.475}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8fba48dccd17904faafbdd11257ab58
+      internalID: 1804826514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireDash_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 66
+        width: 92
+        height: 33
+      alignment: 9
+      pivot: {x: 0.88, y: 0.475}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 862ca554810ccb143abd31f8be3a4bcf
+      internalID: -1782606212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireDash_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 33
+        width: 92
+        height: 33
+      alignment: 9
+      pivot: {x: 0.88, y: 0.475}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb8386f3a4303d84dabb9d533d655a88
+      internalID: 1966161599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireDash_7
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 72
-        height: 32
+        width: 92
+        height: 33
       alignment: 9
-      pivot: {x: 0.84, y: 0.5}
+      pivot: {x: 0.88, y: 0.475}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f911ccf840e716f47b3d488409682817
-      internalID: -1669900420
+      spriteID: eb15bde96656ff646adc41490aeddcde
+      internalID: 421129870
       vertices: []
       indices: 
       edges: []
@@ -219,11 +282,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Dash_3: 247265267
-      Dash_0: -180905366
-      Dash_4: -1669900420
-      Dash_1: 1283288848
-      Dash_2: -95888561
+      FireDash_1: 576327962
+      FireDash_7: 421129870
+      FireDash_2: -1397318484
+      FireDash_4: 1804826514
+      FireDash_5: -1782606212
+      FireDash_6: 1966161599
+      FireDash_3: 553763635
+      FireDash_0: -929672162
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
