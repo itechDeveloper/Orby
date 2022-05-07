@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 768f52ee7fe265a4ea436a2618124e28
+guid: a5de329a4bf7c3242b850b46fe609e78
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -104,169 +104,106 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: FuryFist_0
+      name: DashNoVFX_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 231
-        width: 92
-        height: 33
-      alignment: 9
-      pivot: {x: 0.25, y: 0.5}
+        y: 128
+        width: 72
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fb15db7dd537e45438c83a915573e00d
-      internalID: -1935080508
+      spriteID: 4a267266a1b939f43bd16bb8a7917884
+      internalID: -1471742853
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FuryFist_1
+      name: DashNoVFX_1
       rect:
         serializedVersion: 2
         x: 0
-        y: 198
-        width: 92
-        height: 33
-      alignment: 9
-      pivot: {x: 0.25, y: 0.5}
+        y: 96
+        width: 72
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 60cb6c49c576aae4c961aaddbae0b903
-      internalID: -94108843
+      spriteID: 8caec05bad796ad479969b74d44fd09f
+      internalID: 1762916852
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FuryFist_2
+      name: DashNoVFX_2
       rect:
         serializedVersion: 2
         x: 0
-        y: 165
-        width: 92
-        height: 33
-      alignment: 9
-      pivot: {x: 0.25, y: 0.5}
+        y: 64
+        width: 72
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 45fb6044a0a8e5641908ab9dd31ea56e
-      internalID: -1597821050
+      spriteID: 49ef5ad50f91cf441b54f5e9d73a308f
+      internalID: -1300752212
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FuryFist_3
+      name: DashNoVFX_3
       rect:
         serializedVersion: 2
         x: 0
-        y: 132
-        width: 92
-        height: 33
-      alignment: 9
-      pivot: {x: 0.25, y: 0.5}
+        y: 32
+        width: 72
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7e8a0429f511b3c4d93a36cf93bce153
-      internalID: 787797580
+      spriteID: 5f2c1432402506f4cbca227fcf0ca84d
+      internalID: -1506547307
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FuryFist_4
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 99
-        width: 92
-        height: 33
-      alignment: 9
-      pivot: {x: 0.25, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 033eb4748bb065b4cbe54f3617745b75
-      internalID: -1839217419
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FuryFist_5
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 66
-        width: 92
-        height: 33
-      alignment: 9
-      pivot: {x: 0.25, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a9c7d5f0fdcc4244681265d559b2b223
-      internalID: 1594658294
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FuryFist_6
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 33
-        width: 92
-        height: 33
-      alignment: 9
-      pivot: {x: 0.25, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6f520d2ffe0e059439a9c961aaa5dadc
-      internalID: -201834916
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FuryFist_7
+      name: DashNoVFX_4
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 92
-        height: 33
-      alignment: 9
-      pivot: {x: 0.25, y: 0.5}
+        width: 72
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 45b11b0d069d7b8459c1eb855008c33e
-      internalID: -1415062584
+      spriteID: 5b97fc123c27b8c43a59c6da86fb67d0
+      internalID: 1338388413
       vertices: []
       indices: 
       edges: []
@@ -282,14 +219,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      FuryFist_3: 787797580
-      FuryFist_0: -1935080508
-      FuryFist_4: -1839217419
-      FuryFist_5: 1594658294
-      FuryFist_7: -1415062584
-      FuryFist_2: -1597821050
-      FuryFist_1: -94108843
-      FuryFist_6: -201834916
+      DashNoVFX_3: -1506547307
+      DashNoVFX_1: 1762916852
+      DashNoVFX_4: 1338388413
+      DashNoVFX_2: -1300752212
+      DashNoVFX_0: -1471742853
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -8,7 +8,7 @@ public class EnemyHealthSystem : MonoBehaviour
 
     Animator animator;
     public float getHitAnimationTime;
-    private float getHitAnimationTimeCounter;
+    internal float getHitAnimationTimeCounter;
     internal bool getHit;
 
     internal bool dead;
@@ -34,19 +34,9 @@ public class EnemyHealthSystem : MonoBehaviour
         animator = GetComponent<Animator>();
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    public void GetDamage(float damage)
     {
-        if (collision.tag == "Orb")
-        {
-            health -= 10;
-            getHit = true;
-            animator.SetBool("getHit", getHit);
-            if (health > 0)
-            {
-                animator.SetTrigger("getHitTrigger");
-            }
-            getHitAnimationTimeCounter = getHitAnimationTime;
-        }
+        health -= damage;
     }
 
     void Animate()

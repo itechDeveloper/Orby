@@ -11,6 +11,7 @@ public class PlayerSkillSystem : MonoBehaviour
     public static bool usingSkill;
 
     public float healthRegen;
+    public static bool rageActive;
 
     void Start()
     {
@@ -34,6 +35,7 @@ public class PlayerSkillSystem : MonoBehaviour
                     usingSkill = true;
                     animator.SetBool("usingSkill", usingSkill);
                     animator.SetTrigger("rage");
+                    rageActive = true;
                 }
             }
             if (Input.GetKey(KeyCode.Alpha2) && !usingSkill)
@@ -49,9 +51,41 @@ public class PlayerSkillSystem : MonoBehaviour
                     animator.SetBool("usingSkill", usingSkill);
                     animator.SetTrigger("fireDash");
                 }
-            }    
+            }
+            if (Input.GetKey(KeyCode.Alpha3) && !usingSkill)
+            {
+                if (water)
+                {
+                    usingSkill = true;
+                    animator.SetBool("usingSkill", usingSkill);
+                    animator.SetTrigger("waveSlame");
+                }
+                else if (fire)
+                {
+                    usingSkill = true;
+                    animator.SetBool("usingSkill", usingSkill);
+                    animator.SetTrigger("furyFist");
+                }
+            }
+            if (Input.GetKey(KeyCode.Alpha4) && !usingSkill)
+            {
+                if (water)
+                {
+                    usingSkill = true;
+                    animator.SetBool("usingSkill", usingSkill);
+                    animator.SetTrigger("spearAttack");
+                }
+                else if (fire)
+                {
+                    usingSkill = true;
+                    animator.SetBool("usingSkill", usingSkill);
+                    animator.SetTrigger("magmaShot");
+                }
+            }
         }
     }
+
+    
 
     public void EndOfUsingSkill()
     {
