@@ -32,6 +32,8 @@ public class MoveToCurser : MonoBehaviour
     private float coolDownTimer;
     public float coolDown;
 
+    internal bool canGiveDamage;
+
     void Start()
     {
         followPlayer = true;
@@ -52,6 +54,15 @@ public class MoveToCurser : MonoBehaviour
                 transform.position = Vector3.MoveTowards(transform.position, target, -speed * Time.deltaTime);
             }
         }
+
+        if (moving)
+        {
+            canGiveDamage = true;
+        }
+        else
+        {
+            canGiveDamage = false;
+        }
     }
 
     void FollowPlayer()
@@ -68,7 +79,7 @@ public class MoveToCurser : MonoBehaviour
 
     void Retrieve()
     {
-        if (Input.GetKeyDown(KeyCode.R) || (Vector2.Distance(transform.position, player.position) > retrieveDistance && !moving))
+        if ((Input.GetKeyDown(KeyCode.R) || (Vector2.Distance(transform.position, player.position) > retrieveDistance)) && !moving)
         {
             followPlayer = false;
             retrieving = true;

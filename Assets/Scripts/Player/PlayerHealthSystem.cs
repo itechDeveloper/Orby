@@ -50,18 +50,21 @@ public class PlayerHealthSystem : MonoBehaviour
 
     public void GetDamage(float damage)
     {
-        health -= damage;
-        hit = true;
-        delayAfterHitTimer = delayAfterHit;
-        animator.SetBool("hit", hit);
-        animator.SetTrigger("getHit");
-
-        if (health <= 0)
+        if (!GetComponent<PlayerMovement>().dashing && !GetComponent<PlayerSkillSystem>().fireDashing)
         {
-            dead = true; 
-        }
+            health -= damage;
+            hit = true;
+            delayAfterHitTimer = delayAfterHit;
+            animator.SetBool("hit", hit);
+            animator.SetTrigger("getHit");
 
-        SetHealthBar();
+            if (health <= 0)
+            {
+                dead = true;
+            }
+
+            SetHealthBar();
+        }
     }
 
     public void GetHeal(float heal)

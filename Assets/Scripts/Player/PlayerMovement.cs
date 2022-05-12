@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -8,9 +9,14 @@ public class PlayerMovement : MonoBehaviour
     new Rigidbody2D rigidbody;
     Animator animator;
 
-    // Stats
-    public float stamina;
-    private float staminaRequirement;
+    // Stamina
+    public Slider slider;
+    internal float currentStamina;
+    public float maxStamina;
+
+    public float staminaRegen;
+    public float speedRunStaminaRequirement;
+    public float dashStaminaRequirement;
 
     // Horizontal movement
     float horizontalMove;
@@ -35,7 +41,7 @@ public class PlayerMovement : MonoBehaviour
     private int extraJumps;
 
     // Dash
-    bool dashing;
+    internal bool dashing;
     public float dashSpeed;
     public float dashTime;
     private float dashTimeCounter;
@@ -53,6 +59,7 @@ public class PlayerMovement : MonoBehaviour
         init();
         extraJumps = extraJumpsValue;
         dashTimeCounter = dashTime;
+        SetMaxStaminaBar();
     }
 
     void Update()
@@ -72,6 +79,10 @@ public class PlayerMovement : MonoBehaviour
                 Jump();
                 Dash();
             }
+            else
+            {
+                rigidbody.velocity = new Vector2(0, rigidbody.velocity.y);
+            }
 
             StaminaRegen();
         }
@@ -79,8 +90,13 @@ public class PlayerMovement : MonoBehaviour
         {
             if (!isGrounded)
             {
+                rigidbody.velocity = new Vector2(0, rigidbody.velocity.y);
                 verticalMove = rigidbody.velocity.y;
                 animator.SetFloat("verticalSpeed", verticalMove);
+            }
+            else
+            {
+                rigidbody.velocity = Vector2.zero;
             }
         }
     }
@@ -95,12 +111,12 @@ public class PlayerMovement : MonoBehaviour
 
         if (Input.GetKey(KeyCode.C))
         {
-            staminaRequirement = 5;
-            if (stamina > staminaRequirement)
+            if (currentStamina > speedRunStaminaRequirement)
             {
                 runSpeed = Mathf.Clamp(runSpeed, minSpeed, boostSpeed);
                 runSpeed += boostAccelaration * Time.deltaTime;
-                stamina -= 5 * Time.deltaTime;
+                currentStamina -= speedRunStaminaRequirement * Time.deltaTime;
+                SetStaminaBar();
             }
         }
         else
@@ -110,6 +126,18 @@ public class PlayerMovement : MonoBehaviour
         }
 
         rigidbody.velocity = new Vector2(horizontalMove * runSpeed, rigidbody.velocity.y);
+    }
+
+    public void SetStaminaBar()
+    {
+        slider.value = currentStamina;
+    }
+
+    public void SetMaxStaminaBar()
+    {
+        currentStamina = maxStamina;
+        slider.maxValue = maxStamina;
+        slider.value = currentStamina;
     }
 
     void SetAnimationsParams()
@@ -171,15 +199,14 @@ public class PlayerMovement : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.F))
         {
-            staminaRequirement = 33f;
-
-            if (dashCoolDownTimer < 0 && stamina > staminaRequirement)
+            if (dashCoolDownTimer < 0 && currentStamina > dashStaminaRequirement)
             {
                 dashing = true;
                 dashCoolDownTimer = dashCoolDown;
                 dashTimeCounter = dashTime;
-                stamina -= staminaRequirement;
+                currentStamina -= dashStaminaRequirement;
                 animator.SetBool("dashing", dashing);
+                SetStaminaBar();
             }
         }
         else
@@ -211,12 +238,14 @@ public class PlayerMovement : MonoBehaviour
 
     public void StaminaRegen()
     {
-        if (stamina < 100)
+        if (currentStamina < maxStamina)
         {
-            stamina += 10 * Time.deltaTime;
-        }else if (stamina > 100)
+            currentStamina += staminaRegen * Time.deltaTime;
+            SetStaminaBar();
+        }else if (currentStamina > maxStamina)
         {
-            stamina = 100;
+            currentStamina = maxStamina;
+            SetMaxStaminaBar();
         }
     }
 }

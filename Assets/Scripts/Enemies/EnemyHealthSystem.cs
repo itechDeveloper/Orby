@@ -7,12 +7,15 @@ public class EnemyHealthSystem : MonoBehaviour
     public float health;
 
     Animator animator;
+    public GameObject damageProjectile;
     public float getHitAnimationTime;
     internal float getHitAnimationTimeCounter;
     internal bool getHit;
 
     internal bool dead;
     bool playedDeathAnimation;
+
+    internal bool canBeDamaged;
 
     void Start()
     {
@@ -36,7 +39,18 @@ public class EnemyHealthSystem : MonoBehaviour
 
     public void GetDamage(float damage)
     {
-        health -= damage;
+        if (!getHit && !dead && canBeDamaged)
+        {
+            health -= damage;
+            Instantiate(damageProjectile, transform.position, Quaternion.identity);
+            if (health > 0)
+            {
+                getHit = true;
+                animator.SetBool("getHit", true);
+                animator.SetTrigger("getHitTrigger");
+                getHitAnimationTimeCounter = getHitAnimationTime;
+            }
+        }
     }
 
     void Animate()

@@ -10,17 +10,16 @@ public class GiveDamage : MonoBehaviour
     {
         if (collision.tag == "Enemy")
         {
-            if (PlayerSkillSystem.rageActive)
+            if (GetComponent<MoveToCurser>().canGiveDamage)
             {
-                damage += 5;
-            }
-            collision.GetComponent<EnemyHealthSystem>().GetDamage(damage);
-            if (collision.GetComponent<EnemyHealthSystem>().health > 0)
-            {
-                collision.GetComponent<EnemyHealthSystem>().getHit = true;
-                collision.GetComponent<Animator>().SetBool("getHit", true);
-                collision.GetComponent<Animator>().SetTrigger("getHitTrigger");
-                collision.GetComponent<EnemyHealthSystem>().getHitAnimationTimeCounter = collision.GetComponent<EnemyHealthSystem>().getHitAnimationTime;
+                if (PlayerSkillSystem.rageActive)
+                {
+                    collision.GetComponent<EnemyHealthSystem>().GetDamage(damage * 7/5);
+                }
+                else
+                {
+                    collision.GetComponent<EnemyHealthSystem>().GetDamage(damage);
+                }
             }
         }
     }
