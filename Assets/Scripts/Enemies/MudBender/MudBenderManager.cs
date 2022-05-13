@@ -48,6 +48,12 @@ public class MudBenderManager : MonoBehaviour
     public float teleDownDistanceY;
     public Transform groundCheckPos;
 
+    public Transform wallCheckPosition;
+    public float wallCheckRadius;
+    public LayerMask whatIsWall;
+    bool noWall;
+    bool canCheckWall;
+
     void Start()
     {
         rigidbody = GetComponent<Rigidbody2D>();
@@ -166,26 +172,36 @@ public class MudBenderManager : MonoBehaviour
             teleportDistance -= 1f;
             if (teleportDistance == 0f)
             {
+                noWall = true;
+                canCheckWall = true;
                 teleportDistance -= 1f;
             }
 
             if (teleportDistance < -4f)
             {
+                noWall = true;
+                canCheckWall = true;
                 teleportDistance = startTeleportDistance;
             }
 
             rigidbody.gravityScale = 0f;
+            CheckWallTouch();
+
             if (player.transform.eulerAngles.y < 90)
             {
                 transform.position = new Vector2(player.transform.position.x + teleportDistance, player.transform.position.y - 0.5f);
                 RaycastHit2D[] hits = Physics2D.RaycastAll(transform.position, transform.TransformDirection(Vector2.down), checkGroundLenght);
-                foreach (var hit in hits)
+                
+                if (noWall)
                 {
-                    if (hit.collider.name == "Tilemap")
+                    foreach (var hit in hits)
                     {
-                        animator.SetBool("teleUp", true);
-                        rigidbody.gravityScale = 3f;
-                        canTeleport = false;
+                        if (hit.collider.name == "Tilemap")
+                        {
+                            animator.SetBool("teleUp", true);
+                            rigidbody.gravityScale = 3f;
+                            canTeleport = false;
+                        }
                     }
                 }
             }
@@ -193,13 +209,16 @@ public class MudBenderManager : MonoBehaviour
             {
                 transform.position = new Vector2(player.transform.position.x - teleportDistance, player.transform.position.y - 0.5f);
                 RaycastHit2D[] hits = Physics2D.RaycastAll(transform.position, transform.TransformDirection(Vector2.down), checkGroundLenght);
-                foreach (var hit in hits)
+                if (noWall)
                 {
-                    if (hit.collider.name == "Tilemap")
+                    foreach (var hit in hits)
                     {
-                        animator.SetBool("teleUp", true);
-                        rigidbody.gravityScale = 3f;
-                        canTeleport = false;
+                        if (hit.collider.name == "Tilemap")
+                        {
+                            animator.SetBool("teleUp", true);
+                            rigidbody.gravityScale = 3f;
+                            canTeleport = false;
+                        }
                     }
                 }
             }
@@ -225,19 +244,22 @@ public class MudBenderManager : MonoBehaviour
 
     public void TeleDownCondition()
     {
-        if (Mathf.Abs(transform.position.x - player.transform.position.x) > teleDownDistanceX || Mathf.Abs(transform.position.y - player.transform.position.y) > teleDownDistanceY)
+        if (player.GetComponent<PlayerMovement>().isGrounded)
         {
-            resetTeleUpCd = false;
-            undergrounded = true;
-            animator.SetBool("teleDown", true);
-        }
+            if (Mathf.Abs(transform.position.x - player.transform.position.x) > teleDownDistanceX || Mathf.Abs(transform.position.y - player.transform.position.y) > teleDownDistanceY)
+            {
+                resetTeleUpCd = false;
+                undergrounded = true;
+                animator.SetBool("teleDown", true);
+            }
 
-        RaycastHit2D groundInfo = Physics2D.Raycast(groundCheckPos.position, Vector2.down, checkGroundLenght);
-        if (!groundInfo)
-        {
-            resetTeleUpCd = false;
-            undergrounded = true;
-            animator.SetBool("teleDown", true);
+            RaycastHit2D groundInfo = Physics2D.Raycast(groundCheckPos.position, Vector2.down, checkGroundLenght);
+            if (!groundInfo)
+            {
+                resetTeleUpCd = false;
+                undergrounded = true;
+                animator.SetBool("teleDown", true);
+            }
         }
     }
 
@@ -317,6 +339,22 @@ public class MudBenderManager : MonoBehaviour
         Destroy(gameObject);
     }
 
+    public void CheckWallTouch()
+    {
+        if (canCheckWall)
+        {
+            canCheckWall = false;
+            Collider2D[] wallCheck = Physics2D.OverlapCircleAll(wallCheckPosition.position, wallCheckRadius, whatIsWall);
+            for (int i = 0; i < wallCheck.Length; i++)
+            {
+                if (wallCheck[i].tag == "Ground")
+                {
+                    noWall = false;
+                }
+            }
+        }
+    }
+
     private void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.blue;
@@ -324,5 +362,8 @@ public class MudBenderManager : MonoBehaviour
 
         Gizmos.color = Color.red;
         Gizmos.DrawWireCube(mudAttackPosition.position, new Vector2(mudAttackRangeX, mudAttackRangeY));
+
+        Gizmos.color = Color.green;
+        Gizmos.DrawWireSphere(wallCheckPosition.position, wallCheckRadius);
     }
 }

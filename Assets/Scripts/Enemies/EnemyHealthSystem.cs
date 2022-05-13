@@ -20,6 +20,7 @@ public class EnemyHealthSystem : MonoBehaviour
     void Start()
     {
         init();
+        canBeDamaged = true;
     }
 
     void Update()
