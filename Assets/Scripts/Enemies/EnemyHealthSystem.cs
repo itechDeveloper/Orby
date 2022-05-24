@@ -76,6 +76,7 @@ public class EnemyHealthSystem : MonoBehaviour
             {
                 playedDeathAnimation = true;
                 animator.SetTrigger("death");
+                animator.SetBool("dead", true);
             }
         }
     }

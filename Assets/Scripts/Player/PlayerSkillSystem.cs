@@ -57,11 +57,13 @@ public class PlayerSkillSystem : MonoBehaviour
     public float startRageTime;
     public float rageManaRequirement;
 
-    internal bool fireDashing;
+    internal static bool fireDashing;
     private float timeBtwFireDash;
+    public Transform fireDashPosition;
+    public float fireDashDamage;
+    public float fireDashDamageRadius;
     public float startTimeBtwFireDash;
     public float fireDashSpeed;
-    public float fireDashDamage;
     public float fireDashManaRequirement;
 
     public Transform furyFistAttackPosition;
@@ -307,6 +309,22 @@ public class PlayerSkillSystem : MonoBehaviour
             {
                 GetComponent<Rigidbody2D>().velocity = Vector2.right * fireDashSpeed;
             }
+
+            Collider2D[] enemiesToDamage = Physics2D.OverlapCircleAll(fireDashPosition.position, fireDashDamageRadius, whatIsEnemies);
+            for (int i = 0; i < enemiesToDamage.Length; i++)
+            {
+                if (enemiesToDamage[i].GetComponent<EnemyHealthSystem>() != null)
+                {
+                    if (rageActive)
+                    {
+                        enemiesToDamage[i].GetComponent<EnemyHealthSystem>().GetDamage(fireDashDamage * 7 / 5);
+                    }
+                    else
+                    {
+                        enemiesToDamage[i].GetComponent<EnemyHealthSystem>().GetDamage(fireDashDamage);
+                    }
+                }
+            }
         }
     }
 
@@ -351,6 +369,9 @@ public class PlayerSkillSystem : MonoBehaviour
         Gizmos.DrawWireCube(spearAttackPosition.position, new Vector2(spearAttackRangeX, spearAttackRangeY));
 
         Gizmos.color = Color.red;
+        Gizmos.DrawWireSphere(fireDashPosition.position, fireDashDamageRadius);
+
+        Gizmos.color = Color.red;
         Gizmos.DrawWireCube(furyFistAttackPosition.position, new Vector2(furyFistAttackRangeX, furyFistAttackRangeY));
     }
 
@@ -358,20 +379,5 @@ public class PlayerSkillSystem : MonoBehaviour
     {
         usingSkill = false;
         animator.SetBool("usingSkill", usingSkill);
-    }
-
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (fireDashing && collision.tag == "Enemy")
-        {
-            if (rageActive)
-            {
-                collision.GetComponent<EnemyHealthSystem>().GetDamage(fireDashDamage * 7/5);
-            }
-            else
-            {
-                collision.GetComponent<EnemyHealthSystem>().GetDamage(fireDashDamage);
-            }
-        }
     }
 }

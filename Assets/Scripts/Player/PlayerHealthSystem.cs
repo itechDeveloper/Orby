@@ -50,7 +50,7 @@ public class PlayerHealthSystem : MonoBehaviour
 
     public void GetDamage(float damage)
     {
-        if (!GetComponent<PlayerMovement>().dashing && !GetComponent<PlayerSkillSystem>().fireDashing)
+        if (!GetComponent<PlayerMovement>().dashing && !PlayerSkillSystem.fireDashing)
         {
             health -= damage;
             hit = true;

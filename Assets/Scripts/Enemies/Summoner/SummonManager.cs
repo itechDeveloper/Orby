@@ -16,11 +16,14 @@ public class SummonManager : MonoBehaviour
 
     bool attacking;
     bool attacked;
+    bool startGivingDamage;
+    bool gaveDamage;
     public float damage;
     public Transform attackPos;
     public float attackRange;
     public LayerMask whatIsPlayer;
 
+    bool animatedDeath;
     public GameObject destroyingProjectile;
 
     void Start()
@@ -34,17 +37,18 @@ public class SummonManager : MonoBehaviour
     {
         if (lifeTime > 0)
         {
-            lifeTime -= Time.deltaTime;
             if (!attacking)
             {
+                lifeTime -= Time.deltaTime;
                 Move();
             }
             AttackCondition();
         }
-        else
+        else if(!GetComponent<EnemyHealthSystem>().dead && !animatedDeath)
         {
-            animator.SetBool("onDestroy", true);
-            animator.SetTrigger("destroy");
+            animatedDeath = true;
+            animator.SetBool("dead", true);
+            animator.SetTrigger("death");
         }
     }
 
@@ -80,26 +84,35 @@ public class SummonManager : MonoBehaviour
 
     void AttackCondition()
     {
-        if (Mathf.Abs(transform.position.y - player.transform.position.y) < 1f && Mathf.Abs(transform.position.x - player.transform.position.x) < attackDistance && !attacked)
+        if (Mathf.Abs(attackPos.position.y - player.transform.position.y) < 1f && Mathf.Abs(transform.position.x - player.transform.position.x) < attackDistance && !attacked)
         {
             attacking = true;
             animator.SetTrigger("attack");
             attacked = true;
         }
+
+        if (startGivingDamage && !gaveDamage)
+        {
+            Collider2D playerToDamage = Physics2D.OverlapCircle(transform.position, attackRange, whatIsPlayer);
+            if (playerToDamage != null)
+            {
+                playerToDamage.GetComponent<PlayerHealthSystem>().GetDamage(damage);
+            }
+            gaveDamage = true;
+        }
     }
 
-    public void Attack()
+    public void StartGivingDamage()
     {
-        Collider2D playerToDamage = Physics2D.OverlapCircle(transform.position, attackRange, whatIsPlayer);
-        if (playerToDamage != null)
-        {
-            playerToDamage.GetComponent<PlayerHealthSystem>().GetDamage(damage);
-        }
+        startGivingDamage = true;
     }
 
     public void DestroyThis()
     {
-        Instantiate(destroyingProjectile, transform.position, Quaternion.identity);
+        if (!GetComponent<EnemyHealthSystem>().dead)
+        {
+            Instantiate(destroyingProjectile, transform.position, Quaternion.identity);
+        }
         Destroy(gameObject);
     }
 

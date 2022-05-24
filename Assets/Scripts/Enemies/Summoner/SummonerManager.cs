@@ -8,12 +8,11 @@ public class SummonerManager : MonoBehaviour
     Animator animator;
     GameObject player;
     EnemyHealthSystem enemyHealthSystem;
-
-    bool realized;
-    public float realizeDistance;
+    PatrolMovement patrolMovement;
 
     public float speed;
     public float runDistance;
+    public float chaseDistance;
     bool shouldRun;
     bool noWayRight;
     bool noWayLeft;
@@ -36,26 +35,18 @@ public class SummonerManager : MonoBehaviour
         animator = GetComponent<Animator>();
         player = GameObject.FindGameObjectWithTag("Player");
         enemyHealthSystem = GetComponent<EnemyHealthSystem>();
+        patrolMovement = GetComponent<PatrolMovement>();
     }
 
     void Update()
     {
         if (!enemyHealthSystem.dead)
         {
-            RealizePlayer();
-            if (realized)
+            if (patrolMovement.realized)
             {
                 SummonCondition();
                 RunFromPlayer();
             }
-        }
-    }
-
-    public void RealizePlayer()
-    {
-        if (Vector2.Distance(transform.position, player.transform.position) < realizeDistance)
-        {
-            realized = true;
         }
     }
 
@@ -85,7 +76,7 @@ public class SummonerManager : MonoBehaviour
                 {
                     if (transform.position.x < player.transform.position.x)
                     {
-                        transform.eulerAngles = new Vector3(0, 180, 0);
+                        transform.eulerAngles = new Vector3(0, 0, 0);
                         rigidbody.velocity = Vector2.left * speed * Time.deltaTime;
                         animator.SetBool("run", true);
                         if (!groundInfo)
@@ -116,7 +107,7 @@ public class SummonerManager : MonoBehaviour
                     {
                         noWayRight = false;
                     }
-                    else if(runningCooldown > 0)
+                    else if (runningCooldown > 0)
                     {
                         runningCooldown -= Time.deltaTime;
                     }
@@ -135,6 +126,34 @@ public class SummonerManager : MonoBehaviour
                     {
                         runningCooldown -= Time.deltaTime;
                     }
+                }
+            }
+            else if (Mathf.Abs(transform.position.x - player.transform.position.x) > chaseDistance && Mathf.Abs(transform.position.y - player.transform.position.y) < 1f && groundInfo)
+            {
+                if (transform.position.x < player.transform.position.x)
+                {
+                    transform.eulerAngles = new Vector3(0, 0, 0);
+                    rigidbody.velocity = Vector2.right * speed * Time.deltaTime;
+                    animator.SetBool("run", true);
+                }
+                else
+                {
+                    transform.eulerAngles = new Vector3(0, 180, 0);
+                    rigidbody.velocity = Vector2.left * speed * Time.deltaTime;
+                    animator.SetBool("run", true);
+                }
+            }
+            else
+            {
+                rigidbody.velocity = Vector2.zero;
+                animator.SetBool("run", false);
+                if (transform.position.x < player.transform.position.x)
+                {
+                    transform.eulerAngles = new Vector3(0, 0, 0);
+                }
+                else
+                {
+                    transform.eulerAngles = new Vector3(0, 180, 0);
                 }
             }
         }
@@ -169,6 +188,7 @@ public class SummonerManager : MonoBehaviour
         Instantiate(summoner, secondSummonPos.position, Quaternion.identity);
         summonCooldown = startSummonCooldown;
         summoning = false;
+
     }
 
     private void OnDrawGizmosSelected()
