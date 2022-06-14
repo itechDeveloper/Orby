@@ -16,10 +16,11 @@ public class MoveToCurser : MonoBehaviour
     public Transform player;
 
     // Control direction
-    bool followPlayer;
-    bool attacking;
-    bool moving;
-    bool retrieving;
+    internal bool followPlayer;
+    internal bool attacking;
+    internal bool moving;
+    internal bool retrieving;
+    internal bool movingRight;
 
     // Control reaching to target
     bool reachedTarget;
@@ -90,6 +91,15 @@ public class MoveToCurser : MonoBehaviour
             target = player.position;
             target.z = transform.position.z;
 
+            if (target.x > transform.position.x)
+            {
+                movingRight = true;
+            }
+            else
+            {
+                movingRight = false;
+            }
+
             speed = Mathf.Clamp(speed, 0, maxRetrieveSpeed);
             totalDistance = Mathf.Abs(Vector2.Distance(transform.position, target));
 
@@ -116,6 +126,15 @@ public class MoveToCurser : MonoBehaviour
         {
             target = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             target.z = transform.position.z;
+
+            if (target.x > transform.position.x)
+            {
+                movingRight = true;
+            }
+            else
+            {
+                movingRight = false;
+            }
 
             speed = Mathf.Clamp(speed, 0, maxAttackSpeed);
             totalDistance = Mathf.Abs(Vector2.Distance(transform.position, target));
